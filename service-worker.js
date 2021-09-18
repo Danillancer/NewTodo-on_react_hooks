@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/NewTodo-on_react_hooks-/precache-manifest.8efc7e144424fc45afb2e92a2d8ccaaf.js"
+  "/NewTodo-on_react_hooks/precache-manifest.3b9a77369df8f20649737a224b553f2f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/NewTodo-on_react_hooks-/index.html", {
+workbox.routing.registerNavigationRoute("/NewTodo-on_react_hooks/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
